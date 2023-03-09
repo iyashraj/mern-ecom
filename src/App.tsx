@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux'
 
 
 function App() {
-  console.log(useSelector((root)=> root))
+  // console.log(useSelector((root)=> root))
   return (
     <div className="App">
       <MainHome />
