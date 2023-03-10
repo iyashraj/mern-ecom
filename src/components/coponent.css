@@ -1,0 +1,118 @@
+/* ---------------navbar----------- */
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 70px;
+  padding: 20px 80px;
+  align-items: center;
+  background: #b8b6b6;
+}
+
+.nav-main .item-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-main .item-menu ul li {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-main .right-menu-icons ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-main .right-menu-icons ul li {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav-main .item-menu ul li:hover {
+  color: #717fe0;
+  transition: all 0.2s ease-in;
+}
+.nav-main .right-menu-icons ul li:hover {
+  color: #717fe0;
+  transition: all 0.2s ease-in;
+}
+.right-menu-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-menu-icons ul li svg {
+  height: 20px;
+  width: 20px;
+}
+.nav-hamburger-menu {
+  display: none;
+}
+.login-btn {
+  height: 40px;
+  width: 120px;
+  background-color: #717fe0;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.expended-nav {
+  height: auto;
+  width: 100%;
+  background-color: #717fe0;
+}
+
+.expended-nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  list-style: none;
+  gap: 10px;
+}
+
+.expended-nav ul li {
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+.expended-nav ul li:hover {
+  color: #e7e8ef;
+  transition: all 0.2s ease-in;
+}
+.prompt-class{
+  background-color: rgb(45, 44, 44);
+  color: #cccaca;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 20px;
+}
+.prompt-class a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #cccaca;
+}
+.prompt-class p1{
+  border-bottom: 1px solid gray;
+}
+@media screen and (max-width: 990px) {
+  .nav-main .item-menu {
+    display: none;
+  }
+  .nav-hamburger-menu {
+    display: block;
+    height: 27px !important;
+    width: 27px !important;
+    margin-left: 20px;
+  }
+  button {
+    display: none;
+  }
+}
