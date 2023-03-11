@@ -1,5 +1,5 @@
 .login-main {
-  height: 100vh;
+  height: 95vh;
   width: auto;
   background: #d9d1d1;
   display: flex;
@@ -94,4 +94,24 @@
   width: 20px;
   height: 1px;
   background: #706e6e;
+}
+.social-icons-div {
+  display: flex;
+  gap: 15px;
+  margin-top: 18px;
+}
+.social-icons {
+  width: 35px;
+  height: 35px;
+}
+.register-navigator {
+  width: 280px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.register-navigator a {
+  margin-left: 5px;
+  cursor: pointer;
+  color: rgb(228, 67, 27);
 }
