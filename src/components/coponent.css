@@ -60,6 +60,13 @@
   color: #fff;
   border-radius: 25px;
   cursor: pointer;
+  font-size: 14px;
+}
+.login-btn:hover{
+  background: #5e73f9;
+}
+.respnsive-btn {
+  border: 1px solid #fff;
 }
 .expended-nav {
   height: auto;
@@ -85,7 +92,7 @@
   color: #e7e8ef;
   transition: all 0.2s ease-in;
 }
-.prompt-class{
+.prompt-class {
   background-color: rgb(45, 44, 44);
   color: #cccaca;
   font-size: 14px;
@@ -94,13 +101,16 @@
   gap: 5px;
   padding: 10px 20px;
 }
-.prompt-class a{
+.prompt-class a {
   text-decoration: none;
   font-size: 14px;
   color: #cccaca;
 }
-.prompt-class p1{
+.prompt-class p1 {
   border-bottom: 1px solid gray;
+}
+.main-toggle{
+  display: none;
 }
 @media screen and (max-width: 990px) {
   .nav-main .item-menu {
@@ -112,7 +122,10 @@
     width: 27px !important;
     margin-left: 20px;
   }
-  button {
+  .login-btn {
     display: none;
+  }
+  .main-toggle{
+    display: block;
   }
 }
